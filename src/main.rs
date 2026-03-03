@@ -33,7 +33,7 @@ struct Args {
     #[arg(short, long)]
     packets: Option<i32>,
 
-    /// Attack mode (interface 0 must be connected to UF and interface 1 to HUB !)
+    /// Attack mode
     #[arg(short, long, action)]
     attack: bool,
 }
